@@ -1,0 +1,14 @@
+<p>
+  {{ title }}
+</p>
+<ul *ngFor="let product of products">
+  <li>{{ product }}</li>
+</ul>
+<input type="text" name="item" #newItem />
+<p>
+  <input
+    type="button"
+    value="Add Phone"
+    (click)="addItemEvent(newItem.value)"
+  />
+</p>

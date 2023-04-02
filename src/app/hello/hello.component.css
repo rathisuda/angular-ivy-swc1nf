@@ -1,0 +1,7 @@
+input[type="button"]  
+/* Or better yet try giving an ID or class if possible*/ {
+  border: 0.75 rem;
+  background: none;
+  box-shadow: none;
+  border-radius: 0px;
+}
